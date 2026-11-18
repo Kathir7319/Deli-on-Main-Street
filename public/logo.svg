@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 80" width="100%" height="100%">
+  <defs>
+    <linearGradient id="burgGradWide" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B0000"/>
+      <stop offset="100%" stop-color="#590000"/>
+    </linearGradient>
+  </defs>
+  <!-- Seal Icon on Left -->
+  <g transform="translate(10, 5)">
+    <circle cx="35" cy="35" r="34" fill="url(#burgGradWide)" stroke="#D97706" stroke-width="2" />
+    <circle cx="35" cy="35" r="30" fill="none" stroke="#FEF3C7" stroke-width="0.8" stroke-dasharray="2 1.5" opacity="0.8" />
+    
+    <!-- Mini Sandwich in Badge -->
+    <g transform="translate(35, 25) scale(0.48)">
+      <path d="M-36 -10 C-36 -24, 36 -24, 36 -10 C36 -7, 34 -4, 30 -4 L-30 -4 C-34 -4, -36 -7, -36 -10 Z" fill="#FDE68A" stroke="#B45309" stroke-width="2"/>
+      <path d="M-33 -2 Q-27 4, -21 -2 Q-15 4, -9 -2 Q-3 4, 3 -2 Q9 4, 15 -2 Q21 4, 27 -2 Q33 4, 33 -2" fill="none" stroke="#22C55E" stroke-width="3.5" stroke-linecap="round"/>
+      <polygon points="-30,3 32,2 24,8 -26,8" fill="#F59E0B" />
+      <rect x="-31" y="9" width="62" height="6" rx="3" fill="#E11D48" />
+      <rect x="-32" y="19" width="64" height="7" rx="3" fill="#FDE68A" stroke="#B45309" stroke-width="2"/>
+    </g>
+    <text x="35" y="54" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="900" font-size="11" fill="#FFFFFF" letter-spacing="1">DMS</text>
+  </g>
+
+  <!-- Typography Block -->
+  <g transform="translate(92, 28)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-weight="900" font-size="22" fill="#8B0000" letter-spacing="0.5">DELI ON MAIN STREET</text>
+    <text x="0" y="18" font-family="'Inter', sans-serif" font-weight="600" font-size="11.5" fill="#464646" letter-spacing="1.5">ARTISAN CRAFT SANDWICHES &amp; DINNERS</text>
+    <text x="0" y="33" font-family="'Inter', sans-serif" font-weight="500" font-size="9.5" fill="#8C8C8C" letter-spacing="1.5">DOWNTOWN FUQUAY-VARINA, NC • EST. 2024</text>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="burgundyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A31212"/>
+      <stop offset="100%" stop-color="#6E0000"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Badge Circle -->
+  <circle cx="60" cy="60" r="56" fill="url(#burgundyGrad)" stroke="#D97706" stroke-width="2.5" />
+  <circle cx="60" cy="60" r="51" fill="none" stroke="#FEF3C7" stroke-width="1" stroke-dasharray="2 2" opacity="0.8" />
+  
+  <!-- Sandwich Layers Icon -->
+  <g transform="translate(60, 40) scale(0.62)">
+    <path d="M-36 -10 C-36 -24, 36 -24, 36 -10 C36 -7, 34 -4, 30 -4 L-30 -4 C-34 -4, -36 -7, -36 -10 Z" fill="#FDE68A" stroke="#B45309" stroke-width="2"/>
+    <path d="M-33 -2 Q-27 4, -21 -2 Q-15 4, -9 -2 Q-3 4, 3 -2 Q9 4, 15 -2 Q21 4, 27 -2 Q33 4, 33 -2" fill="none" stroke="#22C55E" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="-30,3 32,2 24,8 -26,8" fill="#F59E0B" />
+    <rect x="-31" y="9" width="62" height="6" rx="3" fill="#E11D48" />
+    <rect x="-32" y="19" width="64" height="7" rx="3" fill="#FDE68A" stroke="#B45309" stroke-width="2"/>
+  </g>
+
+  <!-- Typography DMS / DELI ON MAIN STREET -->
+  <text x="60" y="76" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="900" font-size="16" fill="#FFFFFF" letter-spacing="1.5">DMS</text>
+  <text x="60" y="88" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="800" font-size="7" fill="#FDE68A" letter-spacing="1.5">DELI ON MAIN</text>
+  
+  <!-- Stars -->
+  <text x="28" y="87" text-anchor="middle" font-size="6.5" fill="#F59E0B">★</text>
+  <text x="92" y="87" text-anchor="middle" font-size="6.5" fill="#F59E0B">★</text>
+  
+  <!-- Location subtext -->
+  <text x="60" y="100" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="700" font-size="5" fill="#FBFBF9" letter-spacing="1.5" opacity="0.9">FUQUAY-VARINA, NC</text>
+</svg>
